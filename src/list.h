@@ -4,6 +4,14 @@ struct ListNode
 {
     int       m_nValue;
     ListNode* m_pNext;
+
+    ListNode () {}
+    ListNode (int val)
+    {
+        this->m_nValue = val;
+        this->m_pNext = NULL;
+    }
+
 };
 
 ListNode* CreateListNode(int value);

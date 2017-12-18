@@ -83,6 +83,19 @@ add_executable(binary_search binary_search.cpp)
 add_executable(list_node_sum list_node_sum.cpp list.cpp)
 
 
+##################*********C++ multi thread*************#########################
+# thread class
+# join & detach
+add_executable(thread1 thread1.cpp)
+# 带参子线程
+add_executable(thread2 thread2.cpp)
+# 多线程数据竞争
+add_executable(thread3 thread3.cpp)
+# 使用线程互斥对象mutex保持数据同步
+add_executable(thread4 thread4.cpp)
+# lower bound & upper bound
+add_executable(vectorBbound vectorBound.cpp)
+
 ##################*********lint code*************#########################
 # Reverse integer
 add_executable(reverse_int reverse_int.cpp)
@@ -150,3 +163,5 @@ add_executable(vector_grow vector_grow.cpp)
 add_executable(findMin findMin.cpp)
 # 跳跃游戏
 add_executable(canJump canJump.cpp)
+# 左旋转二进制位
+add_executable(leftRotate leftRotate.cpp)
